@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Geolocation Api</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="geolocation">
+      <div class="container">
+        <p class="geolocation__heading">
+          Click the button to get your coordinates
+        </p>
+        <button class="geolocation__button" onclick="getLocation()">
+          Try it
+        </button>
+        <p id="geolocation__status">Ready..</p>
+        <p id="geolocation__location--longitude">Longitude</p>
+        <p id="geolocation__location--latitude">Latitude</p>
+        <p id="date">Latitude</p>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.geolocation__heading {
+  font-size: 1rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+.geolocation__button {
+  padding: 0.5rem 0.75rem;
+  color: white;
+  background: #3498db;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+#geolocation__status {
+  font-style: italic;
+  font-weight: bold;
+  color: rebeccapurple;
+  margin: 1rem;
+}
+
+#geolocation__location--longitude,
+#geolocation__location--latitude {
+  margin: 1rem;
+  color: red;
+}
+
+#date {
+  color: black;
+}
